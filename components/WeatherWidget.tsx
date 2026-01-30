@@ -100,7 +100,7 @@ export default function WeatherWidget() {
   if (!weather) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 bg-gradient-to-br from-blue-950 to-gray-900 rounded-2xl shadow-2xl p-5 w-72 hover:shadow-3xl transition-all backdrop-blur-sm z-50">
+    <div className="fixed bottom-6 right-6 bg-gradient-to-br from-blue-950/40 to-gray-900/40 rounded-2xl shadow-2xl p-5 w-72 hover:shadow-3xl transition-all backdrop-blur-sm z-50">
       <div className="flex items-center justify-between mb-3">
         <div>
           <h3 className="text-sm font-semibold text-white">Cuaca Sekarang</h3>
