@@ -469,13 +469,13 @@ const skills: Skill[] = [
   if(loading){
     return(
       <div className='fixed inset-0 bg-blue-950 flex flex-col items-center justify-center z-50 gap-8'>
-        <h3 className='text-4xl font-bold text-white-500 items-center justify-center'>Loading...</h3>
+        <h3 className='text-4xl font-bold text-white items-center justify-center'>Loading...</h3>
         
-        <div className='w-100 flex flex-col items-center'>
+        <div className='w-60 md:w-80 lg:w-100 flex flex-col items-center'>
           <div className='w-full h-2 bg-gray-500 rounded-full overflow-hidden'>
             <div className='h-full bg-white transition-all duration-1000 ease-out' style={{width: `${progress}%`}}></div>
           </div>
-          <p className='mt-4 text-white-500 font-medium'>{progress}%</p>
+          <p className='mt-4 text-white font-medium'>{progress}%</p>
         </div>
       </div>
     );
@@ -525,7 +525,7 @@ const skills: Skill[] = [
               PORTO<span className='text-transparent bg-clip-text bg-orange-500'>FOLIO</span>
             </span>
           </h1>
-          <p className='text-base md:text-xl text-white-500'>Webside portofolio ini dibuat menggunakan
+          <p className='text-base md:text-xl text-white'>Webside portofolio ini dibuat menggunakan
             <Link href="https://react.dev/" target='_blank' className='text-cyan-400 font-bold'> React</Link> dan 
             <Link href="https://tailwindcss.com/" target='_blank' className='text-cyan-400 font-bold'> Tailwind CSS</Link>,
             <br /> sesuai dengan ketentuan tugas workshop serta menampilkan 
@@ -535,12 +535,12 @@ const skills: Skill[] = [
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
             <button 
               onClick={() => scrollToSection('about me')}
-              className="px-8 py-4 bg-orange-500 text-white-500 cursor-pointer rounded-2xl font-bold text-lg hover:bg-white/60 hover:text-blue-950 transition-all hover:scale-105 shadow-lg">
+              className="px-8 py-4 bg-orange-500 text-white cursor-pointer rounded-2xl font-bold text-lg hover:bg-white/60 hover:text-blue-950 transition-all hover:scale-105 shadow-lg">
               About Me
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="px-8 py-4 border-2 border-orange-500 text-white-500 cursor-pointer rounded-2xl font-bold text-lg hover:bg-white/60 hover:text-blue-950 transition-all hover:scale-105">
+              className="px-8 py-4 border-2 border-orange-500 text-white cursor-pointer rounded-2xl font-bold text-lg hover:bg-white/60 hover:text-blue-950 transition-all hover:scale-105">
               Contact Me
             </button>
           </div>
@@ -563,10 +563,10 @@ const skills: Skill[] = [
               />
             </div>
             <div className="flex-1 space-y-4 md:space-y-6 text-center md:text-left">
-              <h3 className="text-2xl md:text-3xl font-bold text-white-500 leading-tight">
+              <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
                 Hello World,<br />Saya Aero Afril Drasando
               </h3>
-              <p className="text-base md:text-xl text-white-500">
+              <p className="text-base md:text-xl text-white">
                 Programmer semester 4 yang sedang mendalami AI dan membangun aplikasi/webside modular yang cerdas.
               </p>
             </div>
@@ -715,12 +715,12 @@ const skills: Skill[] = [
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 bg-gray-800">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="bungee-regular text-4xl font-bold text-white-500 mb-6">Contact Me</h2>
-          <p className="text-white-500 mb-12 text-lg">
+          <h2 className="bungee-regular text-4xl font-bold text-white mb-6">Contact Me</h2>
+          <p className="text-white mb-12 text-lg">
             Punya project atau mau kolaborasi? Hubungi saya di bawah ini yaa hehe!<br />
             <Link href="mailto:aeroafril@gmail.com" className='text-cyan-400 hover:text-orange-500 transition-colors font-semibold underline'>aeroafril@gmail.com</Link>
           </p>
-          <p className="text-white-500 mb-12 text-lg">Serta Media Sosial saya Lainnya!</p>
+          <p className="text-white mb-12 text-lg">Serta Media Sosial saya Lainnya!</p>
           <div className="flex gap-6 justify-center">
             <Link
               href="https://www.instagram.com/ar_frildo/" target='_blank'
@@ -745,8 +745,8 @@ const skills: Skill[] = [
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 border-t-2 border-white-500 bg-gray-800">
-        <p className="text-center text-white-500">
+      <footer className="py-12 px-6 border-t-2 border-white bg-gray-800">
+        <p className="text-center text-white">
           Copyrigth © 2026 - <Link href='https://www.instagram.com/ar_frildo/' target='_blank' className='font-bold'>Aero Afril.</Link>
         </p>
       </footer>
