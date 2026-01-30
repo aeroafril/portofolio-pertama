@@ -149,7 +149,7 @@ export default function KualitasUdara() {
       <div className='fixed inset-0 bg-blue-950 flex flex-col items-center justify-center z-50 gap-8'>
         <h3 className='text-4xl font-bold text-white items-center justify-center'>Loading...</h3>
         
-        <div className='w-100 flex flex-col items-center'>
+        <div className='w-60 md:w-80 lg:w-100 flex flex-col items-center'>
           <div className='w-full h-2 bg-gray-500 rounded-full overflow-hidden'>
             <div className='h-full bg-white transition-all duration-300 ease-out' style={{width: `${progress}%`}}></div>
           </div>
