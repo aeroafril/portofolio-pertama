@@ -160,7 +160,7 @@ export default function KualitasUdara() {
   }
 
   return (
-    <div className="libre-franklin-regular min-h-screen bg-gradient-to-b from-blue-950 via-gray-800 to-gray-900">
+    <div className="min-h-screen bg-gradient-to-b from-blue-950 via-gray-800 to-gray-900">
       {/* Header */}
       <nav className="bg-blue-950 border-b border-white/10 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
